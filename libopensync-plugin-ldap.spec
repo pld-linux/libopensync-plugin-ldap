@@ -13,7 +13,7 @@ BuildRequires:	glib2-devel >= 2.0
 BuildRequires:	libgcrypt-devel >= 1.1.91
 BuildRequires:	libopensync-devel >= %{version}
 BuildRequires:	libxml2-devel
-BuildRequires:	openldap-devel
+BuildRequires:	openldap-devel >= 2.4.6
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
